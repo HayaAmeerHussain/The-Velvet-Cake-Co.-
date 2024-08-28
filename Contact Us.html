@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="icon" href="pictures/bakery logo.jpg">
+    <style>
+         body{
+            margin: auto;
+            padding: 25px;
+            overflow-x: hidden;
+            background-image: url("pictures/pink\ bg.jpg");
+        }
+
+        nav{
+            padding: 20px;
+            float: right;
+            margin: 0% 30px;
+        }
+
+        nav a{
+            text-decoration: none;
+            display: inline;
+            padding: 20px;
+            font-size: 20px;
+            color: rgb(255, 255, 255);
+        }
+
+        img{
+            border-radius: 10px;
+            /* margin-left: 30px; */
+            /* margin: 8px; */
+            box-shadow: 0px 5px 10px 0px rgb(255, 255, 255);
+
+        }
+
+        nav a:hover{
+            background-color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
+            border-radius: 35px;
+            transition: 1s;
+        }
+        header{
+            color: rgb(255, 255, 255);
+            text-align: center;
+            font-size: 40px;
+            padding: 10px;
+        }
+
+        header h2{
+            margin-top: 100px;  
+        }
+        input{
+            width: 60%;
+            height: 20px;
+            justify-content: center;
+            background: rgb(221, 153, 195);
+            display: flex;
+            margin: 20px auto;
+            padding: 10px;
+            border: none;
+            outline: none;
+            border-radius: 5px;
+        }
+
+        textarea{
+            width: 60%;
+            height: 20px;
+            background: rgb(221, 153, 195);
+            justify-content: center;
+            display: flex;
+            margin: 20px auto;
+            padding: 10px;
+            border: none;
+            outline: none;
+            border-radius: 5px;
+        }
+
+        button{
+            width: 62%;
+            height: 40px;
+            margin: 10px auto;
+            justify-content: center;
+            display: block;
+            color: rgb(221, 153, 195);
+            background: rgb(85, 9, 56);
+            font-size: 1em;
+            font-weight: bold;
+            margin-top: 20px;
+            outline: none;
+            border: none;
+            border-radius: 5px;
+            transition: .2s ease-in;
+            cursor: pointer;
+        }
+
+        button:hover{
+            background: rgb(255, 255, 255);
+            color: rgb(85, 9, 56);
+        }
+
+        .footer{
+            margin-top: 5%;
+            background-image: url("pictures/pink\ bg.jpg");
+            color: rgb(255, 255, 255);
+            font-size: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 5px 10px 0px rgb(255, 255, 255);
+            text-align: center;
+            padding: 30px;
+        }
+
+        .footer-col-1 h3{
+            color: rgb(82, 5, 52);
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="Contact Us.html">Contact Us</a>
+        <a href="uss.html">About Us</a>
+        <a href="your account.html">Account</a>
+    </nav> 
+    <img src="pictures/bakery logo.jpg" width="180px" height="100px">
+    <header>
+        <h2> Contact Us</h2>
+        <h4>Contact the Help Team</h4>
+    </header>
+
+    <div class="main">
+        <div class="submit">
+            <form>
+                <input type="text" name="txt" placeholder="What can we help you with?" required="">
+                <input type="text" name="txt" placeholder="Example:Shehram Leghari" required="">
+                <input type="email" name="Email" placeholder="Exmaple:legharishehram@gmail.com" required="">
+                <input type="text" name="txt" placeholder="Enter Your Subject" required="">
+                <textarea cols="50" rows="10" placeholder="Please write your question or a description of the problem you're trying to solve here"></textarea>
+                <button>Submit</button>
+            </form>
+        </div>
+    </div>
+    
+<div class="footer">
+        <div class="footer-col-1">
+            <h3>Want 10% off your first order?</h3>
+            <p>Sign up now!</p>
+        </div>
+</div>
+</body>
+</html>

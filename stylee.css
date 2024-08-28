@@ -1,0 +1,150 @@
+body{
+    margin: auto;
+    padding: 25px;
+    overflow-x: hidden;
+    background-image: url("pictures/pink\ bg.jpg");
+    color: rgb(255, 255, 255);
+}
+
+nav{
+    padding: 20px;
+    float: right;
+    margin: 0% 30px;
+}
+
+nav a{
+    text-decoration: none;
+    display: inline;
+    padding: 20px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+nav a:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(119, 10, 65);
+    border-radius: 35px;
+    transition: 1s;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.col-1{
+    flex-basis: 50%;
+    min-height: 300px;
+}
+
+.col-1 video{
+    max-width: 88%;
+    /* padding-left: 100px; */
+    margin-bottom: 15%;
+    box-shadow: 0px 5px 10px 0px rgb(255, 255, 255);
+
+}
+
+.col-1 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 30px;
+}
+
+.col-1 p{
+    margin: 0 30px;
+}
+
+.col-1 a{
+    margin: 0 28px;
+}
+
+.row img{
+    margin: 20%;
+    margin-left: 0%;
+    opacity: 1;
+
+}
+
+.row img:hover{
+    opacity: 0.6;
+    box-shadow: 0px 5px 10px 0px rgb(255, 255, 255);
+    transition: .5s;
+}
+
+.col img{
+    height: 350px;
+    width: 320px;
+    margin: 10px;
+}
+
+.btn{
+    text-decoration: none;
+    display: inline-block;
+    background: rgb(129, 14, 58);
+    color: white;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+.btn:hover{
+    background: rgb(129, 14, 58);
+    color: black;
+}
+
+.small-container{
+    width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+img{
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px 0px rgb(129, 14, 58);
+
+}
+
+.footer{
+    margin-top: 5%;
+    background-image: url(pictures/pink\ bg.jpg);
+    color: rgb(129, 14, 58);
+    font-size: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px 0px rgb(129, 14, 58);
+    text-align: center;
+    padding: 30px;
+}
+
+.footer-col-1 h3{
+    color: black;
+}
+
+
+marquee{
+    margin: 50px;
+
+}
+
+marquee img{
+    margin-right: 20px;
+    height: 400px;
+    width: 400px;
+    opacity: 0.6;
+    transition: .5s;
+    box-shadow: 0px 5px 10px 0px rgb(255, 255, 255);
+}
+
+marquee img:hover{
+    opacity: 1;
+} 
+
+h2{
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}

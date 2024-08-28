@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="icon" href="pictures/bakery logo.jpg">
+    <style>
+        body{
+            margin: 30px 0 0% 20px;
+            margin: auto;
+            padding: 25px;
+            overflow-x: hidden;
+            background-image: url("pictures/pink\ bg.jpg");
+        }
+
+        nav{
+            padding: 20px;
+            float: right;
+            margin: 0% 30px;
+        }
+
+        nav a{
+            text-decoration: none;
+            display: inline;
+            padding: 20px;
+            font-size: 20px;
+            color: rgb(255, 255, 255);
+
+        }
+
+        nav a:hover{
+            background-color: rgb(255, 255, 255);
+            color: rgb(124, 8, 66);
+            border-radius: 35px;
+            transition: 1s;
+        }
+
+        img{
+            border-radius: 10px;
+            box-shadow: 0px 5px 10px 0px rgb(255, 255, 255);
+            /* margin: 16px; */
+
+        }
+
+        header{
+            color: rgb(255, 255, 255);
+            height: 100%;
+            width: 100%;
+            text-align: center;
+            font-size: 40px;
+        }
+
+        header h2{
+            margin-top: 150px;  
+            border-radius: 10px;
+        }
+
+        header h3{
+            margin: 5%;
+        }
+
+        ul {
+            display: flex;
+            position: absolute;
+            /* top: 50%; */
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        ul li {
+            list-style-type: none;
+        }
+
+        ul li a {
+            width: 80px;
+            height: 80px;
+            background-color: #fff;
+            text-align: center;
+            line-height: 80px;
+            font-size: 35px;
+            margin: 0 10px;
+            display: block;
+            border-radius: 50%;
+            position: relative;
+            overflow: hidden;
+            border: 3px solid #fff;
+            z-index: 1;
+        }
+
+        ul li a .icon {
+            position: relative;
+            color: #690e39;
+            transition: .5s;
+            z-index: 3;
+        }
+
+        ul li a:hover .icon {
+            color: #fff;
+            transform: rotateY(360deg);
+        }
+
+        ul li a:before {
+            content: "";
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            transition: .5s;
+            z-index: 2;
+        }
+
+        ul li a:hover:before {
+            top: 0;
+        }
+
+        ul li:nth-child(1) a:before{
+            background: #0c417e;
+        }
+
+        ul li:nth-child(2) a:before{
+            background: #961484;
+        }
+
+        .footer{
+            margin-top: 20%;
+            background-image: url(pictures/pink\ bg.jpg);
+            color: rgb(255, 255, 255);
+            font-size: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 5px 10px 0px rgb(255, 255, 255);
+            text-align: center;
+            padding: 30px;
+        }
+
+        .footer-col-1 h3{
+            color: black;
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="Contact Us.html">Contact Us</a>
+        <a href="uss.html">About Us</a>
+        <a href="your account.html">Account</a>
+    </nav> 
+    <img src="pictures/bakery logo.jpg" width="180px" height="100px">
+    <header>
+        <h2>About Us</h2>
+    
+        <h5>Pakistan's leading Bakery with thousands of satisfied customers</h5>
+        <h4>"Indulge in the Irresistible Velvet Temptation."
+        </h4>
+        <h6>
+            Email:haya.ameer.hussain@gmail.com
+        </h6>
+        <h6>
+            Contact:0322-2248490
+
+        </h6>
+        <h3>
+            Follow Us
+        </h3>
+    </header>
+
+    <ul>
+        <li>
+            <a href="https://www.facebook.com/" target="_blank">
+                <i class="fa-brands fa-facebook icon"></i>
+            </a>
+        </li>
+        <li>
+            <a href="https://www.instagram.com/" target="_blank">
+                <i class="fa-brands fa-instagram icon"></i>
+            </a>
+        </li>
+    </ul>
+    <div class="footer">
+            <div class="footer-col-1">
+                <h3>Want 10% off your first order?</h3>
+                <p>Sign up now!</p>
+            </div>
+    </div>  
+</body>
+</html>
